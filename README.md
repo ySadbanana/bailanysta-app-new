@@ -4,10 +4,14 @@
 Проект для тестового задания в стиле Twitter/Threads. Пользователи могут регистрироваться, публиковать посты, лайкать и репостить чужие записи, искать посты по ключевым словам или хэштегам и переходить на профили других пользователей.  
 Фронтенд написан на **Next.js (React, TypeScript)**, бэкенд — на **FastAPI (Python)**, база данных — **PostgreSQL**.
 
+Ссылка на веб приложение: https://bailanysta-app-new.vercel.app/
+Backend репозиторий: https://github.com/ySadbanana/bailanysta-back
+Frontend репозиторий: https://github.com/ySadbanana/bailanysta-app-new
+
 ## Установка и запуск (Dev)
 ### Backend
 ```bash
-git clone <backend-repo>
+git clone https://github.com/ySadbanana/bailanysta-back
 cd backend
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -18,7 +22,7 @@ API доступно на http://localhost:8000 (Swagger UI: /docs).
 
 ### Frontend
 ```bash
-git clone <frontend-repo>
+git clone https://github.com/ySadbanana/bailanysta-app-new
 cd frontend
 npm install
 cp .env.local.example .env.local
